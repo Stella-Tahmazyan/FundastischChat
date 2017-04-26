@@ -22,7 +22,7 @@ public class UserController {
 
     @RequestMapping(value = "/addUser",method = RequestMethod.POST)
     public ResponseEntity<User> addUser(@RequestBody User user){
-        userDao.getAll();
+//        userDao.getAll();
         return new ResponseEntity(user,HttpStatus.OK);
     }
 
