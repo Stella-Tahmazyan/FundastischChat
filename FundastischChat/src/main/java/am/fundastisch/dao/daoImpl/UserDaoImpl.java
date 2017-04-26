@@ -28,9 +28,9 @@ public class UserDaoImpl {
 
     }
 
-    public List<User> getAll(User user){
-       Criteria criteria= entityManager.unwrap(Session.class).createCriteria(User.class);
-        return criteria.list();
-    }
+//    public List<User> getAll(User user){
+////       Criteria criteria= entityManager.unwrap(Session.class).createCriteria(User.class);
+////        return criteria.list();
+//    }
 
 }
